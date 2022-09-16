@@ -7,9 +7,9 @@ pipeline
         {
             steps
             {
-                withCredentials([usernamePassword(credentialsId: 'aws-credentials', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) 
+                withCredentials([usernamePassword(credentialsId: 'aws-credentials', usernameVariable: 'swamy.venkatesh2903@gmail.com', passwordVariable: 'Amma@108')]) 
                 {
-                    sh "cd terraform && export AWS_ACCESS_KEY_ID=${USERNAME} && export AWS_SECRET_ACCESS_KEY=${PASSWORD} && export AWS_DEFAULT_REGION=us-west-1 && terraform init && terraform apply --auto-approve"
+                    sh "cd terraform && export AWS_ACCESS_KEY_ID=${swamy.venkatesh2903@gmail.com} && export AWS_SECRET_ACCESS_KEY=${Amma@108} && export AWS_DEFAULT_REGION=us-west-1 && terraform init && terraform apply --auto-approve"
                 }               
             }
         }
